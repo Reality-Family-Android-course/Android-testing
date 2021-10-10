@@ -11,9 +11,9 @@ import kotlinx.coroutines.runBlocking
 import java.util.LinkedHashMap
 
 /**
- * Реализация удаленного источника данных со статическим доступом к данным для удобного тестирования.
+ * Implementation of a remote data source with static access to the data for easy testing.
  */
-class FakeTestRepository : TasksRepository {
+class FakeAndroidTestRepository : TasksRepository {
 
     var tasksServiceData: LinkedHashMap<String, Task> = LinkedHashMap()
 

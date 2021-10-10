@@ -11,9 +11,6 @@ import org.junit.Before
 import org.junit.Test
 
 
-/**
- * Модульные тесты для реализации репозитория в памяти с кешем.
- */
 @ExperimentalCoroutinesApi
 class DefaultTasksRepositoryTest {
 
